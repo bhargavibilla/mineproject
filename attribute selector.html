@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>attribute selector</title>
+        <style>
+            a[target]{background-color: red;color: black;}
+            [title~=child]{border: 2px solid black;background-color: rgb(46, 165, 42);}
+        </style>
+    </head>
+    <body>
+        <h1>attribute selector</h1>
+        <a href="http://www.google.com" target="">google</a>|
+        <a href="http://www.youtube.com" target="_blank">youtube</a>|
+        <a href="http://www.facebook.com" >facebook</a>|
+        <div title="parent">its parent div</div>
+        <div title="child">its child1 div</div>
+        <div title="child">its child2 div</div>
+
+    </body>
+</html>
